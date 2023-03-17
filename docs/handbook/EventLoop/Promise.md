@@ -1,21 +1,21 @@
-# Promise
+## Promise
 
-1. <b>then( )</b> 方法，用来指定 <b>resolve</b> 的回调
+1. **then()** 方法，用来指定 **resolve** 的回调
 
-2. <b>catch( )</b> 方法，用来指定 <b>reject</b> 的回调
+2. **catch()** 方法，用来指定 **reject** 的回调
 
-3. <b>finally( )</b> 方法，不管 Promise 的状态是 resolve( ) 还是 reject( ) 都会执行，且它的回调函数接收不到 Promise 的结果  
+3. **finally()** 方法，不管 Promise 的状态是 resolve() 还是 reject() 都会执行，且它的回调函数接收不到 Promise 的结果  
 
 
-4. <b>Promise.all( )</b> 接收一个数组参数，里面的值最终都算返回 Promise 对象。多个异步操作的并行执行，等到它们都执行完后才会进到 then 里面。
+4. **Promise.all()** 接收一个数组参数，里面的值最终都算返回 Promise 对象。多个异步操作的并行执行，等到它们都执行完后才会进到 then 里面。
 
-5. <b>Promise.race( )</b> all( ) 效果实际上是「谁跑的慢，以谁为准执行回调」，那么相对的就有另一个方法「谁跑的快，以谁为准执行回调」
+5. **Promise.race()** all() 效果实际上是「谁跑的慢，以谁为准执行回调」，那么相对的就有另一个方法「谁跑的快，以谁为准执行回调」
 
 ---
 
 红灯三秒亮一次，绿灯一秒亮一次，黄灯2秒亮一次；如何让三个灯不断交替重复亮灯？（用 Promse 实现）
 
-```javascript
+```js
 
 function red() {
     console.log('red');

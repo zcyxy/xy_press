@@ -6,11 +6,13 @@ import m1 from "G:\\xy\\VuePress\\vuepress-starter\\node_modules\\@vuepress\\plu
 import m2 from "G:\\xy\\VuePress\\vuepress-starter\\node_modules\\@vuepress\\plugin-medium-zoom\\clientRootMixin.js"
 import m3 from "G:\\xy\\VuePress\\vuepress-starter\\node_modules\\@vuepress\\plugin-nprogress\\clientRootMixin.js"
 import m4 from "G:\\xy\\VuePress\\vuepress-starter\\node_modules\\vuepress-plugin-smooth-scroll\\lib\\clientRootMixin.js"
+import m5 from "G:\\xy\\VuePress\\vuepress-starter\\node_modules\\vuepress-plugin-code-copy\\clientRootMixin.js"
 
 export default [
   m0,
   m1,
   m2,
   m3,
-  m4
+  m4,
+  m5
 ]

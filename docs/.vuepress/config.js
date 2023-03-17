@@ -23,6 +23,7 @@ module.exports = {
       }
     ]
   ],
+  plugins: [['vuepress-plugin-code-copy', true]],
   theme: 'reco',
   themeConfig: {
     subSidebar: 'auto',
@@ -65,7 +66,7 @@ module.exports = {
           { title: "执行上下文", path: "/handbook/ExecutionContext/ExecutionContext" },
           { title: "变量对象", path: "/handbook/ExecutionContext/ActivationObject" },
           { title: "作用域链", path: "/handbook/ExecutionContext/Scope" },
-          { title: "this", path: "/handbook/ExecutionContext/This" },
+          { title: "This", path: "/handbook/ExecutionContext/This" },
         ],
       },
       {
@@ -110,11 +111,11 @@ module.exports = {
         ],
       },
       {
-        title: "数据类型转换",
-        path: '/handbook/DataType/DataType',
+        title: "类型转换",
+        path: '/handbook/Type/Type',
         collapsable: false, // 不折叠
         children: [
-          { title: "数据类型转换", path: "/handbook/DataType/DataType" },
+          { title: "类型转换", path: "/handbook/Type/Type" },
         ],
       },
       {
