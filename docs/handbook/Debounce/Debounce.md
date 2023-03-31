@@ -6,10 +6,12 @@
 
 function debounce(func, wait) {
     let timeout = null
+    let _this = this
+    let arg = arguments
     return function() {
         if (timeout) clearTimeout(timeout)
         timeout = setTimeout(() => {
-            func.apply(this, arguments)
+            func.apply(_this, arg)
         }, wait)
     }
 }
@@ -24,11 +26,13 @@ function debounce(func, wait) {
 
 function throttle(func, wait) {
     let timeout = null
+    let _this = this
+    let arg = arguments
     return function() {
         if (!timeout) {
             timeout = setTimeout(() => {
                 timeout = null
-                func.apply(this, arguments)
+                func.apply(_this, arg)
             }, wait)
         }
     }
