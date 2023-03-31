@@ -13,6 +13,26 @@
 
 ---
 
+使用 Promise 实现每隔1秒输出 1,2,3
+
+```js
+
+let arr = [1,2,3]
+
+arr.reduce((p, c)=>{
+    return p.then(()=>{
+        return new Promise(res=>{
+            setTimeout(()=>{
+                res(console.log(c))
+            },1000)
+        })
+    })
+}, Promise.resolve())
+
+```
+
+---
+
 红灯三秒亮一次，绿灯一秒亮一次，黄灯2秒亮一次；如何让三个灯不断交替重复亮灯？（用 Promse 实现）
 
 ```js

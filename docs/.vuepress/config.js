@@ -119,6 +119,22 @@ module.exports = {
         ],
       },
       {
+        title: "防抖、节流",
+        path: '/handbook/Debounce/Debounce',
+        collapsable: false, // 不折叠
+        children: [
+          { title: "防抖、节流", path: "/handbook/Debounce/Debounce" },
+        ],
+      },
+      {
+        title: "浏览器、渲染机制",
+        path: '/handbook/Render/Render',
+        collapsable: false, // 不折叠
+        children: [
+          { title: "浏览器、页面渲染", path: "/handbook/Render/Render" },
+        ],
+      },
+      {
         title: "前端路由",
         path: '/handbook/Router/Router',
         collapsable: false, // 不折叠

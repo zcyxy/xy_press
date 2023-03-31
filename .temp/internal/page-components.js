@@ -3,18 +3,20 @@
  */
 export default {
   "v-c4639e1a": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\README.md"),
+  "v-4bbdba36": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\Array\\Array.md"),
   "v-2e6072ee": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\Closure\\Closure.md"),
+  "v-42e99924": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\Debounce\\Debounce.md"),
+  "v-063fbda2": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\EventLoop\\EventLoop.md"),
   "v-d06536b0": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\EventLoop\\Promise.md"),
   "v-2c40d1a8": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\ExecutionContext\\ActivationObject.md"),
-  "v-063fbda2": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\EventLoop\\EventLoop.md"),
-  "v-4bbdba36": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\Array\\Array.md"),
-  "v-293445d6": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\ExecutionContext\\This.md"),
-  "v-972de738": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\Operator\\Operator.md"),
-  "v-5252a1c8": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\ExecutionContext\\Scope.md"),
-  "v-6239f264": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\String\\String.md"),
-  "v-4a7e9064": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\Router\\Router.md"),
-  "v-3ed41a64": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\Type\\Type.md"),
-  "v-3c5dfe92": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\Prototype\\Prototype.md"),
   "v-de4c4eb8": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\ExecutionContext\\ExecutionContext.md"),
-  "v-e75c1140": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\Prototype\\Inherit.md") 
+  "v-5252a1c8": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\ExecutionContext\\Scope.md"),
+  "v-293445d6": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\ExecutionContext\\This.md"),
+  "v-e75c1140": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\Prototype\\Inherit.md"),
+  "v-972de738": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\Operator\\Operator.md"),
+  "v-3c5dfe92": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\Prototype\\Prototype.md"),
+  "v-4a7e9064": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\Router\\Router.md"),
+  "v-25a0c1a4": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\Render\\Render.md"),
+  "v-6239f264": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\String\\String.md"),
+  "v-3ed41a64": () => import("G:\\xy\\VuePress\\vuepress-starter\\docs\\handbook\\Type\\Type.md") 
 }

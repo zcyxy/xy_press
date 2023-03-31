@@ -4,9 +4,9 @@
 
 * **push()**
 * **pop()**
-* **suift()**
 * **unshift()**
-* **reverse()** ：颠倒数组中元素的顺序
+* **suift()**
+* **reverse()** : 颠倒数组中元素的顺序
 * **splice()**
 * **sort()**
 
@@ -16,10 +16,11 @@
 
 * **join()**
 * **slice()**
-* **cancat()** ：合并数组，一般使用...代替
+* **cancat()** : 合并数组，一般使用...代替
 * **indexOf()**
 * **lastIndexOf()**
-* **includes()** ：查找数组是否包含某个元素，返回布尔值
+* **includes()** : 查找数组是否包含某个元素，返回布尔值
+* **flat()** : 数组扁平化处理，传入 number 或 Infinity
 
 ---
 
@@ -30,5 +31,5 @@
 * **filter()**
 * **every()**
 * **some()**
-* **reduce() reduceRight()** ：为数组提供累加器，合并为一个值
-* **find() findIndex()** ：找出第一个符合条件的数组成员，并返回该成员
+* **reduce() reduceRight()** : 为数组提供累加器，合并为一个值
+* **find() findIndex()** : 找出第一个符合条件的数组成员，并返回该成员

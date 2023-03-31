@@ -54,6 +54,26 @@ export const siteData = {
           "level": 2,
           "title": "网络",
           "slug": "网络"
+        },
+        {
+          "level": 2,
+          "title": "学习资料",
+          "slug": "学习资料"
+        }
+      ]
+    },
+    {
+      "title": "常用数组操作方法",
+      "frontmatter": {},
+      "regularPath": "/handbook/Array/Array.html",
+      "relativePath": "handbook/Array/Array.md",
+      "key": "v-4bbdba36",
+      "path": "/handbook/Array/Array.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "常用数组操作方法",
+          "slug": "常用数组操作方法"
         }
       ]
     },
@@ -74,6 +94,46 @@ export const siteData = {
           "level": 2,
           "title": "函数参数传递方式：按值传递",
           "slug": "函数参数传递方式-按值传递"
+        }
+      ]
+    },
+    {
+      "title": "防抖",
+      "frontmatter": {},
+      "regularPath": "/handbook/Debounce/Debounce.html",
+      "relativePath": "handbook/Debounce/Debounce.md",
+      "key": "v-42e99924",
+      "path": "/handbook/Debounce/Debounce.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "防抖",
+          "slug": "防抖"
+        },
+        {
+          "level": 2,
+          "title": "节流",
+          "slug": "节流"
+        }
+      ]
+    },
+    {
+      "title": "事件循环",
+      "frontmatter": {},
+      "regularPath": "/handbook/EventLoop/EventLoop.html",
+      "relativePath": "handbook/EventLoop/EventLoop.md",
+      "key": "v-063fbda2",
+      "path": "/handbook/EventLoop/EventLoop.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "事件循环",
+          "slug": "事件循环"
+        },
+        {
+          "level": 2,
+          "title": "async/await相关",
+          "slug": "async-await相关"
         }
       ]
     },
@@ -113,37 +173,37 @@ export const siteData = {
       ]
     },
     {
-      "title": "事件循环",
+      "title": "执行上下文",
       "frontmatter": {},
-      "regularPath": "/handbook/EventLoop/EventLoop.html",
-      "relativePath": "handbook/EventLoop/EventLoop.md",
-      "key": "v-063fbda2",
-      "path": "/handbook/EventLoop/EventLoop.html",
+      "regularPath": "/handbook/ExecutionContext/ExecutionContext.html",
+      "relativePath": "handbook/ExecutionContext/ExecutionContext.md",
+      "key": "v-de4c4eb8",
+      "path": "/handbook/ExecutionContext/ExecutionContext.html",
       "headers": [
         {
           "level": 2,
-          "title": "事件循环",
-          "slug": "事件循环"
+          "title": "执行上下文",
+          "slug": "执行上下文"
         },
         {
           "level": 2,
-          "title": "async/await相关",
-          "slug": "async-await相关"
+          "title": "执行上下文栈",
+          "slug": "执行上下文栈"
         }
       ]
     },
     {
-      "title": "常用数组操作方法",
+      "title": "作用域链",
       "frontmatter": {},
-      "regularPath": "/handbook/Array/Array.html",
-      "relativePath": "handbook/Array/Array.md",
-      "key": "v-4bbdba36",
-      "path": "/handbook/Array/Array.html",
+      "regularPath": "/handbook/ExecutionContext/Scope.html",
+      "relativePath": "handbook/ExecutionContext/Scope.md",
+      "key": "v-5252a1c8",
+      "path": "/handbook/ExecutionContext/Scope.html",
       "headers": [
         {
           "level": 2,
-          "title": "常用数组操作方法",
-          "slug": "常用数组操作方法"
+          "title": "作用域链",
+          "slug": "作用域链"
         }
       ]
     },
@@ -168,6 +228,26 @@ export const siteData = {
       ]
     },
     {
+      "title": "继承",
+      "frontmatter": {},
+      "regularPath": "/handbook/Prototype/Inherit.html",
+      "relativePath": "handbook/Prototype/Inherit.md",
+      "key": "v-e75c1140",
+      "path": "/handbook/Prototype/Inherit.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "继承",
+          "slug": "继承"
+        },
+        {
+          "level": 2,
+          "title": "class继承",
+          "slug": "class继承"
+        }
+      ]
+    },
+    {
       "title": "操作符优先级",
       "frontmatter": {},
       "regularPath": "/handbook/Operator/Operator.html",
@@ -183,32 +263,17 @@ export const siteData = {
       ]
     },
     {
-      "title": "作用域链",
+      "title": "原型",
       "frontmatter": {},
-      "regularPath": "/handbook/ExecutionContext/Scope.html",
-      "relativePath": "handbook/ExecutionContext/Scope.md",
-      "key": "v-5252a1c8",
-      "path": "/handbook/ExecutionContext/Scope.html",
+      "regularPath": "/handbook/Prototype/Prototype.html",
+      "relativePath": "handbook/Prototype/Prototype.md",
+      "key": "v-3c5dfe92",
+      "path": "/handbook/Prototype/Prototype.html",
       "headers": [
         {
           "level": 2,
-          "title": "作用域链",
-          "slug": "作用域链"
-        }
-      ]
-    },
-    {
-      "title": "常用字符串操作方法",
-      "frontmatter": {},
-      "regularPath": "/handbook/String/String.html",
-      "relativePath": "handbook/String/String.md",
-      "key": "v-6239f264",
-      "path": "/handbook/String/String.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "常用字符串操作方法",
-          "slug": "常用字符串操作方法"
+          "title": "原型",
+          "slug": "原型"
         }
       ]
     },
@@ -224,6 +289,86 @@ export const siteData = {
           "level": 2,
           "title": "前端路由",
           "slug": "前端路由"
+        }
+      ]
+    },
+    {
+      "title": "TCP协议",
+      "frontmatter": {},
+      "regularPath": "/handbook/Render/Render.html",
+      "relativePath": "handbook/Render/Render.md",
+      "key": "v-25a0c1a4",
+      "path": "/handbook/Render/Render.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "TCP协议",
+          "slug": "tcp协议"
+        },
+        {
+          "level": 2,
+          "title": "UDP协议",
+          "slug": "udp协议"
+        },
+        {
+          "level": 2,
+          "title": "HTTP协议",
+          "slug": "http协议"
+        },
+        {
+          "level": 2,
+          "title": "URL",
+          "slug": "url"
+        },
+        {
+          "level": 2,
+          "title": "DNS",
+          "slug": "dns"
+        },
+        {
+          "level": 2,
+          "title": "页面渲染",
+          "slug": "页面渲染"
+        },
+        {
+          "level": 2,
+          "title": "回流和重绘",
+          "slug": "回流和重绘"
+        },
+        {
+          "level": 3,
+          "title": "回流",
+          "slug": "回流"
+        },
+        {
+          "level": 3,
+          "title": "重绘",
+          "slug": "重绘"
+        },
+        {
+          "level": 3,
+          "title": "如何避免触发回流和重绘",
+          "slug": "如何避免触发回流和重绘"
+        },
+        {
+          "level": 2,
+          "title": "性能优化",
+          "slug": "性能优化"
+        }
+      ]
+    },
+    {
+      "title": "常用字符串操作方法",
+      "frontmatter": {},
+      "regularPath": "/handbook/String/String.html",
+      "relativePath": "handbook/String/String.md",
+      "key": "v-6239f264",
+      "path": "/handbook/String/String.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "常用字符串操作方法",
+          "slug": "常用字符串操作方法"
         }
       ]
     },
@@ -314,61 +459,6 @@ export const siteData = {
           "level": 2,
           "title": "+、-、*、/、%的类型转换",
           "slug": "、-、-、-、-的类型转换"
-        }
-      ]
-    },
-    {
-      "title": "原型",
-      "frontmatter": {},
-      "regularPath": "/handbook/Prototype/Prototype.html",
-      "relativePath": "handbook/Prototype/Prototype.md",
-      "key": "v-3c5dfe92",
-      "path": "/handbook/Prototype/Prototype.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "原型",
-          "slug": "原型"
-        }
-      ]
-    },
-    {
-      "title": "执行上下文",
-      "frontmatter": {},
-      "regularPath": "/handbook/ExecutionContext/ExecutionContext.html",
-      "relativePath": "handbook/ExecutionContext/ExecutionContext.md",
-      "key": "v-de4c4eb8",
-      "path": "/handbook/ExecutionContext/ExecutionContext.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "执行上下文",
-          "slug": "执行上下文"
-        },
-        {
-          "level": 2,
-          "title": "执行上下文栈",
-          "slug": "执行上下文栈"
-        }
-      ]
-    },
-    {
-      "title": "继承",
-      "frontmatter": {},
-      "regularPath": "/handbook/Prototype/Inherit.html",
-      "relativePath": "handbook/Prototype/Inherit.md",
-      "key": "v-e75c1140",
-      "path": "/handbook/Prototype/Inherit.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "继承",
-          "slug": "继承"
-        },
-        {
-          "level": 2,
-          "title": "class继承",
-          "slug": "class继承"
         }
       ]
     },
@@ -533,6 +623,28 @@ export const siteData = {
           {
             "title": "类型转换",
             "path": "/handbook/Type/Type"
+          }
+        ]
+      },
+      {
+        "title": "防抖、节流",
+        "path": "/handbook/Debounce/Debounce",
+        "collapsable": false,
+        "children": [
+          {
+            "title": "防抖、节流",
+            "path": "/handbook/Debounce/Debounce"
+          }
+        ]
+      },
+      {
+        "title": "浏览器、渲染机制",
+        "path": "/handbook/Render/Render",
+        "collapsable": false,
+        "children": [
+          {
+            "title": "浏览器、页面渲染",
+            "path": "/handbook/Render/Render"
           }
         ]
       },
