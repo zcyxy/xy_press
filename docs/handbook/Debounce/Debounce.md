@@ -6,9 +6,9 @@
 
 function debounce(func, wait) {
     let timeout = null
-    let _this = this
-    let arg = arguments
     return function() {
+        let _this = this
+        let arg = arguments
         if (timeout) clearTimeout(timeout)
         timeout = setTimeout(() => {
             func.apply(_this, arg)
@@ -26,9 +26,9 @@ function debounce(func, wait) {
 
 function throttle(func, wait) {
     let timeout = null
-    let _this = this
-    let arg = arguments
     return function() {
+        let _this = this
+        let arg = arguments
         if (!timeout) {
             timeout = setTimeout(() => {
                 timeout = null
